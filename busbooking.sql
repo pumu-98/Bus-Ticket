@@ -3,10 +3,6 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
-  
- 
-
 CREATE TABLE `availability` (
   `id` int(10) UNSIGNED NOT NULL,
   `bus` int(10) UNSIGNED DEFAULT NULL,
